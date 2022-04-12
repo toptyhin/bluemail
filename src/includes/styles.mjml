@@ -4,7 +4,8 @@
   <mj-class name="body" background-color="#FFF" />
   <mj-class name="hero" background-color="#005AAB" full-width="full-width" />
   <mj-class name="footer" background-color="#DDDDDC" full-width="full-width" padding="60px 0" />
-  <mj-class name="share-bar" background-color="#C4C4C3" full-width="full-width" />
+  <!-- <mj-class name="share-bar" background-color="#C4C4C3" full-width="full-width" /> -->
+  <mj-class name="share-bar" background-color="#eff1fa" full-width="full-width" />
 
   <mj-class name="cta-btn" background-color="#EF4D3F" border-radius="0" color="#FFF" />
 

@@ -81,3 +81,7 @@ li {
   -webkit-transform: scaleX(1);
   transform: scaleX(1)
 }
+
+.share-bar {
+  background: "linear-gradient(180deg,#eff1fa 90%,#fff)";
+}

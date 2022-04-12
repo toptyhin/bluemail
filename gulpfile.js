@@ -59,7 +59,7 @@ function assets() {
     .src(config.assetsDir + '/images/**/*')
     .pipe(newer(config.distDir + '/assets/images'))
     .pipe(imagemin([
-      imagemin.jpegtran({progressive: true}),
+      imagemin.mozjpeg({progressive: true}),
      imagemin.optipng({optimizationLevel: 5})
     ]))
     .pipe(gulp.dest(config.distDir + '/assets/images'));
