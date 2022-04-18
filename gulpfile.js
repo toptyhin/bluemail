@@ -3,7 +3,7 @@
 const gulp           = require('gulp'),
       mjml           = require('gulp-mjml'),
       fileinclude    = require('gulp-file-include'),
-      imagemin       = require('gulp-imagemin'),
+      // imagemin       = require('gulp-imagemin'),
       newer          = require('gulp-newer'),
       browsersync    = require('browser-sync').create();
 
@@ -58,10 +58,10 @@ function assets() {
   return gulp
     .src(config.assetsDir + '/images/**/*')
     .pipe(newer(config.distDir + '/assets/images'))
-    .pipe(imagemin([
-      imagemin.mozjpeg({progressive: true}),
-     imagemin.optipng({optimizationLevel: 5})
-    ]))
+    // .pipe(imagemin([
+    //   imagemin.mozjpeg({progressive: true}),
+    //  imagemin.optipng({optimizationLevel: 5})
+    // ]))
     .pipe(gulp.dest(config.distDir + '/assets/images'));
 }
 

@@ -44,17 +44,20 @@
   </mj-head>
   <mj-body background-color="#eff1fa" width="700px">
 
-    <!--<mj-section>
-      <mj-column>
+    <mj-section>
+      <mj-column width="50%">
         <mj-image align="left" width="200px" src="https://inforkom.ru/images/mail/blue/logo.png" />
       </mj-column>
-    </mj-section> -->
+        <mj-column  width="50%">
+          <mj-text align="center" font-size="20px" padding="0px" padding-top="20px" ><a style="color:#475187;text-decoration:none" href="tel:+74993918910">+7(499) 391-89-10</a> </mj-text>
+        </mj-column>              
+    </mj-section>
     
-    <mj-section>
+    <mj-section padding="0px">
 
-        <mj-column  width="100%" padding-top="50px">
-          <mj-text font-family="Oswald, Arial" font-size="24px">
-            <h1>Агрегатор скидок</h1>
+        <mj-column  width="100%" padding="0px">
+          <mj-text font-size="24px">
+            <h1 style="margin-top:0;">Агрегатор скидок</h1>
           </mj-text>      
           <!--<mj-image align="right" width="400px" align="center" src="https://inforkom.ru/images/mail/blue/card.jpg" />-->
         </mj-column>
@@ -63,9 +66,10 @@
           <mj-image align="center" width="400px" align="center" src="https://inforkom.ru/images/mail/blue/card.jpg" />
         </mj-column>        
 
-        <mj-column width="100%" padding-top="50px">
+        <mj-column width="100%" padding-top="25px">
           
-          <mj-text font-family="Oswald, Arial" font-size="30px"> Оформление за один день </mj-text>
+          <mj-text font-size="30px"> Выгода на топливе от 1 до 4,5 рублей с литра</mj-text>
+          <mj-text font-size="16px" color="#b2422c">Заключи договор в апреле получи топливные карты бесплано </mj-text>
           <mj-button font-family="Oswald" font-size="30px" background-color="#828df8" color="white" href="https://agregator.inforkom.ru" target="_blank">Оформить</mj-button>          
         </mj-column>
 
